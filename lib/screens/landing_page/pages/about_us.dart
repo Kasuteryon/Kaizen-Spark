@@ -17,25 +17,19 @@ class AboutUs extends StatelessWidget {
   static const List<String> _teamMembersNames = [
     "Br. Eduardo Castellón.",
     "Br. Luis Zúniga.",
-    "Br. Samuel Solórzano",
-    "Br. Ernesto Miranda.",
-    "Br. Cesia Mendieta"
+    "Br. Ernesto Miranda."
   ];
 
   static const List<String> _teamMembersRoles = [
     "Group Leader & Software Requirement Documenter.",
     "Project Manager & Software Developer.",
-    "Requirements Engineer.",
-    "Software Consultant, SDLC & UML Expert.",
-    "Sponsor & SDLC Expert"
+    "Requirements Engineer."
   ];
 
   static const List<AssetImage> _teamPictures = [
     AssetImage("assets/eduardo.jpeg"),
     AssetImage("assets/luis.jpeg"),
-    AssetImage("assets/samuel.jpeg"),
-    AssetImage("assets/ernesto.jpg"),
-    AssetImage("assets/cesia.jpeg")
+    AssetImage("assets/ernesto.jpg")
   ];
 
   @override
